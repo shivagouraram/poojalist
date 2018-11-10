@@ -45,7 +45,7 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
         
-        var options = "location=no,hidden=yes,location:no";
+        var options = "location=no,hidden=no,location:no";
         
         window.open = cordova.InAppBrowser.open;
         window.open('http://grahaphala.com/poojasamagri','_self',options);
