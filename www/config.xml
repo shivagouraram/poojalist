@@ -71,7 +71,7 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="icon.png" />
+    
     <platform name="android">
 	<icon qualifier="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
 	<icon qualifier="mdpi" src="res/icons/android/drawable-mdpi-icon.png" />
@@ -120,9 +120,7 @@
 	<splash height="960" platform="ios" src="res/screens/ios/Default@2x~iphone.png" width="640" />
 	<splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
 </platform>
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>100</string>
-    </gap:config-file>
+   
 
     <!--
         Define access to external domains.
